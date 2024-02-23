@@ -4,7 +4,6 @@ import React from 'react';
 
 import logo from './logo.svg';
 
-
 /**
  * @return {ReactElement} React componen
  */
