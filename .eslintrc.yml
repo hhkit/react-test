@@ -9,4 +9,13 @@ parserOptions:
   sourceType: module
 plugins:
   - react
-rules: {}
+  - simple-import-sort
+rules: {
+  "simple-import-sort/imports": "error",
+  "simple-import-sort/exports": "error",
+  "react/jsx-uses-react": "error",
+  "react/jsx-uses-vars": "error",
+}
+settings:
+  react: 
+    version: detect
